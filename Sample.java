@@ -14,10 +14,12 @@ public class Sample
 
     s.m2();
 
+    s.m3();
+
   }
-public void m2(){
+  public void m2(){
   System.out.println("Hello I'm m2()");
-}
+  }
 
   public void m3(){
     System.out.println("Hello I'm m3()");
