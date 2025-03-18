@@ -14,6 +14,10 @@ public class Sample
     System.out.println("Hello I'm m3()");
   }
 
+  public void m4(){
+    system.out.println("m4 method");
+      }
+
 
   public static void main(String[] args)
   {
@@ -22,6 +26,8 @@ public class Sample
     s.m1();
 
     s.m2();
+
+    s.m4();
 
     s.add(10,45);
 
