@@ -12,7 +12,11 @@ public class Sample
 
     s.m1();
 
-  }
+    s.m2();
 
+  }
+public void m2(){
+  System.out.println("Hello I'm m2()");
+}
 
 }
