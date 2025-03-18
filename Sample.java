@@ -6,6 +6,15 @@ public class Sample
     System.out.println("Github tutorial");
   }
 
+  public void m2(){
+  System.out.println("Hello I'm m2()");
+}
+
+  public void m3(){
+    System.out.println("Hello I'm m3()");
+  }
+
+
   public static void main(String[] args)
   {
     Sample s = new Sample();
@@ -14,13 +23,22 @@ public class Sample
 
     s.m2();
 
-  }
-public void m2(){
-  System.out.println("Hello I'm m2()");
-}
+    s.add(10,45);
 
-  public void m3(){
-    System.out.println("Hello I'm m3()");
+    s.div(100,30);
+
   }
 
+
+  public void add(int a , int b)
+  {
+
+    int c = a+ b;
+    System.out.println(c);
+  }
+
+  public void div(int a, float b)
+  {
+    float c = a / b;
+    System.out.println(c);
 }
